@@ -3,25 +3,32 @@
   padding: 0;
   margin: 0;
 }
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins/Poppins-Light.ttf);
+}
+
+/* navigation */
 .navigation__bar {
   display: flex;
-  width: 100%;
-  height: 78px;
   flex-shrink: 0;
   background: #fff;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  margin-left: 2px;
-  margin-right: 0px;
+  flex-direction: row;
+  padding-left: 145px;
+  padding-right: 130px;
+  padding-top: 40px;
 }
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
-  margin-bottom: 24px;
+  padding-right: 11px;
+}
+.logo__position {
+  display: flex;
+  flex-direction: row;
 }
 .navigation__links-box {
   display: flex;
@@ -29,6 +36,8 @@
   list-style-type: none;
   justify-content: center;
   align-items: center;
+  padding-left: 320px;
+  padding-right: 30px;
 }
 .navigation__links {
   display: flex;
@@ -42,6 +51,14 @@
   font-weight: 400;
   text-decoration: none;
   line-height: 28px; /* 200% */
+}
+.button__position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  padding-left: 30px;
 }
 .button__formating {
   display: flex;
@@ -64,31 +81,29 @@
   color: #fff;
   border: none;
 }
+/* navigation end */
+
+/* section design thinking */
 .flex__container {
   display: flex;
   flex-direction: row;
-  width: 1126px;
-  height: 496px;
-  flex-shrink: 0;
-  margin-top: 128px;
-  margin-left: 145px;
-  margin-right: 129;
+  /* flex-shrink: 0; */
+  padding-top: 30px;
+  padding-left: 145px;
+  padding-right: 145px;
+  padding-bottom: 110px;
 }
 .title__design {
   display: flex;
-  width: 518px;
-  height: 108px;
   color: #2f281e;
   font-family: Poppins;
   font-size: 44px;
   font-style: normal;
   font-weight: 700;
   line-height: 54px;
-  margin-top: 60px;
+  padding-top: 120px;
 }
 .text__description {
-  width: 458px;
-  height: 95px;
   flex-shrink: 0;
   color: #544837;
   font-family: Poppins;
@@ -96,7 +111,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 45px;
 }
 .button__design {
   width: 175px;
@@ -112,7 +128,16 @@
   line-height: normal;
   border: none;
 }
-.navigation__video {
+.button__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.arrow__style {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.container__video {
   color: #f90;
   font-family: Poppins;
   font-size: 16px;
@@ -121,12 +146,11 @@
   line-height: normal;
   text-decoration-line: underline;
 }
-.title__design-nav {
+/* section design thinking end */
+
+/* section superpowers */
+.title__design-container {
   display: flex;
-  margin-left: 439px;
-  margin-right: 422px;
-  margin-top: 130px;
-  width: 539px;
   color: #2f281e;
   text-align: center;
   font-family: Poppins;
@@ -134,6 +158,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  justify-content: center;
+  padding-left: 430px;
+  padding-right: 430px;
 }
 .division__column {
   display: flex;
@@ -158,6 +185,14 @@
   line-height: normal;
   margin-top: 30px;
 }
+.text__superpowers {
+  color: #544837;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
 .button__sign-up {
   display: flex;
   align-items: center;
@@ -178,4 +213,198 @@
 .button__align {
   display: flex;
   justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 90px;
 }
+/* section superpowers end */
+
+/* sections professionals and marketers */
+.professionals__position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 145px;
+  padding-right: 145px;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.text-block__postion {
+  display: flex;
+  flex-direction: column;
+  padding-right: 130px;
+}
+.description__style {
+  color: #544837;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.h4__style {
+  color: #544837;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 3px;
+}
+.h4__style--bold {
+  padding-top: 30px;
+  padding-bottom: 12px;
+  color: #2f281e;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+}
+.h2__style {
+  color: #2f281e;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+/* sections professionals and marketers end */
+
+/* section managers */
+.managers__position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 145px;
+  padding-right: 145px;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.text-block__postion--managers {
+  display: flex;
+  flex-direction: column;
+  padding-left: 130px;
+}
+.description__style--managers {
+  color: #544837;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  padding-left: 30px;
+}
+.description__style-main--managers {
+  padding-bottom: 40px;
+  color: #544837;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.h4__style--managers {
+  color: #544837;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 3px;
+}
+.h2__style--managers {
+  color: #2f281e;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+.checkbox__position {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 40px;
+}
+/* section managers end */
+
+/* footer */
+.list-button__position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.list__style1 {
+  display: flex;
+  flex-direction: column;
+  color: #544837;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  text-decoration: none;
+  padding-left: 480px;
+  padding-right: 175px;
+  padding-bottom: 83px;
+}
+.list__style2 {
+  display: flex;
+  flex-direction: column;
+  color: #544837;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  text-decoration: none;
+  padding-right: 80px;
+  padding-bottom: 83px;
+}
+.logo__footer {
+  padding-left: 160px;
+  padding-right: 1200px;
+  padding-bottom: 30px;
+}
+.button__sign-up--footer {
+  width: 131px;
+  height: 39px;
+  /* flex-shrink: 0; */
+  border-radius: 4px;
+  background: #f90;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+input {
+  width: 325px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  background: #fff;
+  color: #bcd0e5;
+  font-family: ProximaNova;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.input-button__align {
+  display: flex;
+  flex-direction: column;
+}
+.button__paddding {
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+/* footer end */

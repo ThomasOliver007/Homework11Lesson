@@ -8,32 +8,39 @@
   </head>
   <body>
     <nav class="navigation__bar">
-      <a class="logo">
-        <img
-          src="logo.png"
-          alt="logo_symbol"
-          width="31.168px"
-          height="32px"
-          flex-shrink="0"
-        />
-        <img
-          src="productly.svg"
-          alt="logo_written"
-          width="143.117px"
-          height="28.973px"
-          flex-shrink="0"
-        />
-      </a>
-      <ul class="navigation__links-box">
-        <li><a class="navigation__links" href="#">Products</a></li>
-        <li><a class="navigation__links" href="#">Customers</a></li>
-        <li><a class="navigation__links" href="#">Pricing</a></li>
-        <li><a class="navigation__links" href="#">Resources</a></li>
-      </ul>
-      <button class="button__formating">Sign In</button>
-      <button class="button__formating button__formating--orange">
-        Sign Up
-      </button>
+      <div class="logo__position">
+        <a class="logo">
+          <img
+            src="logo.png"
+            alt="logo_symbol"
+            width="31.168px"
+            height="32px"
+            flex-shrink="0"
+          />
+        </a>
+        <a
+          ><img
+            src="productly.svg"
+            alt="logo_written"
+            width="143.117px"
+            height="28.973px"
+            flex-shrink="0"
+        /></a>
+      </div>
+      <div>
+        <ul class="navigation__links-box">
+          <li><a class="navigation__links" href="#">Products</a></li>
+          <li><a class="navigation__links" href="#">Customers</a></li>
+          <li><a class="navigation__links" href="#">Pricing</a></li>
+          <li><a class="navigation__links" href="#">Resources</a></li>
+        </ul>
+      </div>
+      <div class="button__position">
+        <button class="button__formating">Sign In</button>
+        <button class="button__formating button__formating--orange">
+          Sign Up
+        </button>
+      </div>
     </nav>
     <section class="flex__container">
       <div>
@@ -42,9 +49,10 @@
           Tools, tutorials, design and innovation experts, all in one place! The
           most intuitive way to imagine your next user experience.
         </p>
-        <button class="button__design">Get started</button>
-        <img src="triangle_video.svg" alt="arrow" />
-        <a class="navigation__video">Watch the Video</a>
+        <div class="button__link"><button class="button__design">Get started</button>
+          <div class="arrow__style"><img src="triangle_video.svg" alt="arrow" /></div>
+          <a class="container__video">Watch the Video</a>
+        </div>
       </div>
       <div class="image__positioning">
         <img src="image0.svg" alt="jumping_people" />
@@ -52,7 +60,7 @@
     </section>
     <section>
       <div>
-        <h2 class="title__design-nav">
+        <h2 class="title__design-container">
           We design tools to unveil your superpowers
         </h2>
       </div>
@@ -60,29 +68,156 @@
         <div class="division__column-styling">
           <img src="icon1.svg" alt="icon1" />
           <h3 class="subtitle__style">First click tests</h3>
-          <p>While most people enjoy casino gambling.</p>
+          <p class="text__superpowers">While most people enjoy casino gambling.</p>
         </div>
         <div class="division__column-styling">
           <img src="icon2.svg" alt="icon2" />
           <h3 class="subtitle__style">Design surveys</h3>
-          <p>Sports betting, lottery and bingo playing for the fun.</p>
+          <p class="text__superpowers">Sports betting, lottery and bingo playing for the fun.</p>
         </div>
         <div class="division__column-styling">
           <img src="icon3.svg" alt="icon3" />
           <h3 class="subtitle__style">Preference tests</h3>
-          <p>The Myspace page defines the individual.</p>
+          <p class="text__superpowers">The Myspace page defines the individual.</p>
         </div>
         <div class="division__column-styling division__column-styling--height">
           <img src="icon4.svg" alt="icon4" />
           <h3 class="subtitle__style">Five second tests</h3>
-          <p>Personal choices and the overall personality of the person.</p>
+          <p class="text__superpowers">Personal choices and the overall personality of the person.</p>
         </div>
       </nav>
-      <div class="button__align"><button class="button__sign-up">SIGN UP NOW</button></div>
+      <div class="button__align">
+        <button class="button__sign-up">SIGN UP NOW</button>
+      </div>
     </section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <footer></footer>
+    <section class="professionals__position">
+      <div class="text-block__postion">
+        <h4 class="h4__style">Effortless Validation for</h4>
+        <h2 class="h2__style">Design Professionals</h2>
+        <p class="description__style">
+          The Myspace page defines the individual, his or her characteristics,
+          traits, personal choices and the overall personality of the person.
+        </p>
+        <h4 class="h4__style--bold">Accessory makers</h4>
+        <p class="description__style">
+          While most people enjoy casino gambling, sports betting, lottery and
+          bingo playing for the fun
+        </p>
+        <h4 class="h4__style--bold">Alterationists</h4>
+        <p class="description__style">
+          If you are looking for a new way to promote your business that won’t
+          cost you more money
+        </p>
+        <h4 class="h4__style--bold">Custom Design designers</h4>
+        <p class="description__style">
+          If you are looking for a new way to promote your business that won’t
+          cost you more money
+        </p>
+      </div>
+      <div>
+        <img src="image1.svg" alt="image_message" />
+      </div>
+    </section>
+    <section class="managers__position">
+      <div>
+        <img src="image2.svg" alt="image_message" />
+      </div>
+      <div class="text-block__postion--managers">
+        <h4 class="h4__style--managers">Easier decision making for</h4>
+        <h2 class="h2__style--managers">Product Managers</h2>
+        <p class="description__style-main--managers">
+          The Myspace page defines the individual, his or her characteristics,
+          traits, personal choices and the overall personality of the person.
+        </p>
+        <div class="checkbox__position">
+          <img src="checkbox.svg" alt="checkbox" />
+          <p class="description__style--managers">
+            Never worry about overpaying for your energy again.
+          </p>
+        </div>
+        <div class="checkbox__position">
+          <img src="checkbox.svg" alt="checkbox" />
+          <p class="description__style--managers">
+            We will only switch you to energy companies that we trust and will
+            treat you right
+          </p>
+        </div>
+        <div class="checkbox__position">
+          <img src="checkbox.svg" alt="checkbox" />
+          <p class="description__style--managers">
+            We track the markets daily and know where the savings are.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="professionals__position">
+      <div class="text-block__postion">
+        <h4 class="h4__style">Optimisation for</h4>
+        <h2 class="h2__style">Marketers</h2>
+        <p class="description__style">
+          Few would argue that, despite the advancements of feminism over the
+          past three decades, women still face a double standard when it comes
+          to their behavior.
+        </p>
+        <h4 class="h4__style--bold">Accessory makers</h4>
+        <p class="description__style">
+          While most people enjoy casino gambling, sports betting, lottery and
+          bingo playing for the fun
+        </p>
+        <h4 class="h4__style--bold">Alterationists</h4>
+        <p class="description__style">
+          If you are looking for a new way to promote your business that won’t
+          cost you more money
+        </p>
+        <h4 class="h4__style--bold">Custom Design designers</h4>
+        <p class="description__style">
+          If you are looking for a new way to promote your business that won’t
+          cost you more money
+        </p>
+      </div>
+      <div>
+        <img src="image3.svg" alt="image_checking" />
+      </div>
+    </section>
+    <footer>
+      <nav class="logo__footer">
+        <a class="logo">
+          <img
+            src="logo.png"
+            alt="logo_symbol"
+            width="31.168px"
+            height="32px"
+            flex-shrink="0"
+          />
+          <img
+            src="productly.svg"
+            alt="logo_written"
+            width="143.117px"
+            height="28.973px"
+            flex-shrink="0"
+          />
+        </a>
+      </nav>
+      <div class="list-button__position">
+        <div class="list__style1">
+          <a href="About us">About us</a>
+          <a href="Blog">Blog</a>
+          <a href="Contact">Contact</a>
+          <a href="FAQ">FAQ</a>
+        </div>
+        <div class="list__style2">
+          <a href="Disclaimer">Disclaimer</a>
+          <a href="Financing">Financing</a>
+          <a href="Privacy Policy">Privacy Policy</a>
+          <a href="Terms of Service">Terms of Service</a>
+        </div>
+        <div class="input-button__align">
+          <input type="text" />
+          <div class="button__paddding">
+            <button class="button__sign-up--footer">Sign up Now</button>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
